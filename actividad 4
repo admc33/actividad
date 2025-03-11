@@ -1,0 +1,7 @@
+a = int(input("ingresar un numero:"))
+b = int(input("ingresar un numero:"))
+rango = 0
+c = a > rango
+d = b > rango
+resultado = c or d
+print (resultado)

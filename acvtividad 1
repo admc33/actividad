@@ -1,0 +1,16 @@
+numero = int(input("ingresar edad:"))
+rango = 18
+resultado = numero >= rango
+print ("¿eres mayor de edad?")
+print (resultado)
+
+a = int(input("ingresar un numero"))
+resultado = a % 2 
+par = resultado == 0
+print(f"¿El numero es par? {par})
+
+a = int(input("ingresar un numero"))
+b = int(input("ingresar un numero"))
+resultado = a == b
+print (f"¿el numero es par? {resultado}")
+

@@ -1,0 +1,14 @@
+a = int(input("ingresar un numero:"))
+b = int(input("ingresar un numero:"))
+c = int(input("ingresar un numero:"))
+
+mayor = a
+mayor = (b > mayor) * b + (not (b > mayor)) * mayor
+mayor = (c > mayor) * c + (not (c > mayor)) * mayor
+
+menor = a
+menor = (b < menor) * b + (not (b < menor)) * menor
+menor = (c < menor) * c + (not (c < menor)) * menor
+
+print (f"el numero mayor es {mayor}")
+print (f"el numero menor es {menor}")

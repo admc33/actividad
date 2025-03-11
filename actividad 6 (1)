@@ -1,0 +1,21 @@
+a = int(input("ingresar un numero:"))
+if a >= 90:
+    print("obtuviste una A")
+elif a >= 80:
+    print ("obtuviste una B")
+elif a >= 70:
+    print("obtuviste una C")
+elif a >= 60:
+    print("obtuviste una D")
+elif a <= 59:
+    print("obtuviste una F")
+else:
+    print("necesitas mejorar")
+    
+    a2 = int(input("ingresar un numero:"))
+if a2 > 0:
+    print("el numero es positivo")
+elif a2 < 0:
+    print("el numero es negativo")
+else:
+    print("el numero es 0")
